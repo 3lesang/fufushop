@@ -10,7 +10,7 @@ public class DBConnection {
 	private final String portNumber = "1433";
 	private final String instance="";//MSSQLSERVER LEAVE THIS ONE EMPTY IF YOUR SQL IS A SINGLE INSTANCE
 	private final String userID = "sa";
-    private final String password = "Phu@0702";
+    private final String password = "msang2403@";
     
 
     public Connection getConnect()throws Exception{

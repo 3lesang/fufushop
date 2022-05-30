@@ -1,8 +1,15 @@
 package fufushop.Model;
 
+
 import java.util.List;
 
+import fufushop.Model.*;
+
+
+
 public class ProductModel {
+	
+	
 	public int id;  
 	public String name;
 	public	double price;
@@ -14,7 +21,8 @@ public class ProductModel {
 	public	int brandID;
 	public	int userID;
 	public	int status;
-	public List<ColorModel> listColor;
+	
+	private List<ColorModel> listColor;
 	
 	public ProductModel(int id, String name, double price, float salePrice, int totalQuantity, String description,
 			String image, int categoryID, int brandID, int userID, int status) {
