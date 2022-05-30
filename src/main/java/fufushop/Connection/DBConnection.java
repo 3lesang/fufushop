@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 
 
 public class DBConnection {
-	private final String serverName = "localhost";
-	private final String dbName = "FUFUSHOP";
+	private final String serverName = "SQL8003.site4now.net"; 
+	private final String dbName = "db_a87b3d_fufushop";
 	private final String portNumber = "1433";
 	private final String instance="";//MSSQLSERVER LEAVE THIS ONE EMPTY IF YOUR SQL IS A SINGLE INSTANCE
-	private final String userID = "sa";
+	private final String userID = "db_a87b3d_fufushop_admin";
     private final String password = "msang2403@";
     
 
