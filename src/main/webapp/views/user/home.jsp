@@ -129,9 +129,12 @@
 									<!-- single-product-wrap start -->
 									<div class="single-product-wrap">
 										<div class="product-image">
-											<a href="product-detail?productID=${p.id }"> <img
+											<a href="product-detail?productID=${p.id }"> 
+											<!-- <img
 												src="${urlProductImage }${p.image }"
-												alt="Li's Product Image" style="width:211px;height:211px;">
+												alt="Li's Product Image" style="width:211px;height:211px;">-->
+												<img src=" ${p.image}"
+														alt="Li's Product Image" style="width:211px;height:211px;">
 											</a> 
 											<c:if test="${tag == 'null' }">
 												<span class="sticker font-weight-bold">New</span>
@@ -264,8 +267,10 @@
 											<!-- single-product-wrap start -->
 											<div class="single-product-wrap">
 												<div class="product-image">
-													<a href="product-detail?productID=${p.id }"> <img
-														src="${urlProductImage }${p.image}"
+													<a href="product-detail?productID=${p.id }"> 
+													<!--  <img src="${urlProductImage }${p.image}"
+														alt="Li's Product Image" style="width:211px;height:211px;">-->
+														<img src=" ${p.image}"
 														alt="Li's Product Image" style="width:211px;height:211px;">
 													</a>
 												</div>

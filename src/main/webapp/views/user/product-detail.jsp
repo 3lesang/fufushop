@@ -15,7 +15,9 @@
 						<div class="lg-image">
 							<a class="popup-img venobox vbox-item"
 								href="${urlProductImage }${product.image}" data-gall="myGallery">
-								<img src="${urlProductImage }${product.image}" alt="product image" style="width:420px;height:420px;">
+								<!--  <img src="${urlProductImage }${product.image}" alt="product image" style="width:420px;height:420px;">-->
+								<img src=" ${product.image}" alt="product image" style="width:420px;height:420px;">
+								
 							</a>
 						</div>	
 					</div>
@@ -208,7 +210,10 @@
 								<div class="single-product-wrap">
 									<div class="product-image">
 										<a href="product-detail?productID=${p.id }"> 
-											<img src="${urlProductImage }${p.image }" alt="Li's Product Image" 
+											<!--  <img src="${urlProductImage }${p.image }" alt="Li's Product Image" 
+												style="width:211px;height:211px;">-->
+												
+												<img src=" ${p.image }" alt="Li's Product Image" 
 												style="width:211px;height:211px;">
 										</a> 
 									</div>
